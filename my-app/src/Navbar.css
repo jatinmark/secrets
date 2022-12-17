@@ -1,0 +1,14 @@
+.navbar_boby{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    justify-content:center ;
+    align-items: center;
+    gap: 50px;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+}
