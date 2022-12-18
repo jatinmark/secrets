@@ -14,15 +14,17 @@ return (
     
     <div className="navbar" >
         <div className="navbar_boby">
-      <CircleIcon sx={{color: "white"}}/>
-      <WidgetsIcon sx={{color: "white"}} />
-      <Person3Icon sx={{color: "white"}} />
-      <PhotoAlbumIcon sx={{color: "white"}} />
-      <MessageIcon sx={{color: "white"}} />
-      <NotificationsActiveIcon sx={{color: "white"}} />
+          
+      <div className="icons" ><CircleIcon sx={{color: "white", '&:hover': { color: 'orange' } }} /></div>
+      <div className="icons" ><WidgetsIcon sx={{color: "white", '&:hover': { color: 'orange' }}} /></div>
+      <div className="icons" ><Person3Icon sx={{color: "white", '&:hover': { color: 'orange' }}} /></div>
+      <div className="icons" ><PhotoAlbumIcon sx={{color: "white", '&:hover': { color: 'orange' }}} /></div>
+      <div className="icons" ><MessageIcon sx={{color: "white", '&:hover': { color: 'orange' }}} /></div>
+      <div className="icons" ><NotificationsActiveIcon sx={{color: "white", '&:hover': { color: 'orange' }}} /></div>
       </div>
-      <Avatar/>
-       
+      <div className="avatar">
+      <Avatar src ='https://www.shutterstock.com/image-vector/happy-young-people-design-vector-260nw-440727109.jpg'/>
+      </div>
     </div>
     );
 }

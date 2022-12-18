@@ -1,0 +1,31 @@
+.lower_content{
+    display: flex;
+    margin: 24px 57px 0 28px;
+    justify-content: space-between;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.button{
+    display: flex;
+    align-items: center;
+    color:  rgb(214, 214, 214) ;
+    border: none;
+  border-radius: 6px;
+  
+    
+}
+.barsize{
+margin: 6px 80px 6px 10px ;
+         color : rgb(153, 151, 151);
+}
+
+
+
+
+
+
