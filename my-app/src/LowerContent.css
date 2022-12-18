@@ -7,8 +7,6 @@
 .categories{
     display: flex;
     flex-direction: column;
-    
-    
 }
 .button{
     display: flex;
